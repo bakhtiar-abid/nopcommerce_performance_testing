@@ -4,13 +4,15 @@ This project demonstrates the use of Apache JMeter to perform performance testin
 
 ## Project Description
 
-The project focuses on the following performance testing scenarios for the nopCommerce platform:
+The project focuses on the following performance testing scenarios for the nopCommerce platform, with threads distributed by percentage:
 
-1. **Guest User Browsing**: Simulates a guest user navigating and browsing the test site.
-2. **User Registration**: Tests the process of a new user registering on the site.
-3. **User Login**: Simulates an existing user logging into their account.
-4. **Adding Products to Cart**: Tests the functionality of adding products to the user's shopping cart.
-5. **Placing an Order**: Simulates the process of placing an order by a logged-in user.
+1. **Guest User Browsing** (30%): Simulates a guest user navigating and browsing the test site.
+2. **User Registration** (20%): Tests the process of a new user registering on the site.
+3. **User Login** (20%): Simulates an existing user logging into their account.
+4. **Adding Products to Cart** (20%): Tests the functionality of adding products to the user's shopping cart.
+5. **Placing an Order** (10%): Simulates the process of placing an order by a logged-in user.
+
+To maintain test data efficiently, a CSV file is used. This ensures that the data is organized, easily manageable, and can be dynamically loaded during the test execution.
 
 ## Table of Contents
 
